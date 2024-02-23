@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "login"
+AuthUserFile "/ryuta/etc/datas/.htpasswd"
+require valid-user
