@@ -1,5 +1,13 @@
 <html>
+
 <center><h1>りゅうたのホームページ。<h1></center>
 <p>他の...</p>
-<a href="https://ryuta001.github.io/himitu">関係者以外クリックするな</a>
+<input type="button" value="関係者以外アクセスするな" onclick="gate();">
+
+  <script type="text/javascript">
+   function gate() {
+      var UserInput = prompt("パスワードを入力して下さい:","");
+      location.href = UserInput + ".html";
+   }
+</script>
 </html>
